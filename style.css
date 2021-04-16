@@ -77,7 +77,7 @@ font-family: 'Roboto Slab', serif;
 	font-weight: bold;
 }
 .footer{
-	width:100vw;
+	width:97vw;
 	height:20px;
 	background-color:whitesmoke;
 	margin-bottom: 0px;
@@ -90,6 +90,6 @@ font-family: 'Roboto Slab', serif;
 	.map{
 		width: 80vw;}
 	.footer{
-		width: 95vw;
+		width: 80vw;
 	}
 }
