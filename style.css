@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Orelega+One&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+.navbar-brand{
+	font-size: 25px
+}
+.nav-link{
+	font-size: 18px
+}
+.main_head{
+font-family: 'Roboto Slab', serif;
+	font-size: 60px
+}
+.sub_head{
+	font-size: 90px;
+	color:#0275d8;
+	font-family: 'Merriweather', serif;
+}
+.para{
+	font-size: 25px
+}
+.abtHeading{
+	font-size: 70px;
+	color:#0275d8;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+.abtpara{
+	font-size: 20px
+}
+.box{
+	width:10vw;
+	height: 15vw;
+	box-shadow: 0px 10px 20px -9px black;
+	
+}
+.cardp{
+	font-size: 18px
+}
+.courseHead{
+	font-size: 50px;
+	color:#0275d8;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+.courseimg{
+	box-shadow: 0px 10px 20px -6px black;
+}
+.name{
+	font-family: 'Open Sans', sans-serif;
+}
+.contactform{
+	background-color: whitesmoke;
+}
+.address{
+	font-size: 20px;
+}
+.map{
+	box-shadow: 0px 10px 20px -6px black;
+	
+}
+.instructor{
+	font-size: 45px;
+	color:#0275d8;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+.footer{
+	width:100vw;
+	height:20px;
+	background-color:whitesmoke;
+	margin-bottom: 0px;
+	font-size: 10px;
+}
+.footerhead{
+	font-size: 20px;
+}
+@media  (max-width: 768px){
+	.map{
+		width: 80vw;}
+	.footer{
+		width: 95vw;
+	}
+}
